@@ -30,3 +30,9 @@ mahasiswa :: mahasiswa()
         nim = iNim; // Definisi Nim dan Nama
         nama = iNama;
     }
+    
+    void mahasiswa::cetak()
+    {
+        cout << endl << "Nim = " << nim << endl;
+        cout << "Nama = " << nama << endl;
+    }
